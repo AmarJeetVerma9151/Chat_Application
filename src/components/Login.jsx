@@ -72,7 +72,7 @@ function Login() {
 
         <p className="text-sm text-white mt-4 text-center">
           Don’t have an account?{" "}
-          <Link to="/signup" className="underline text-blue-900 text-lg text-white/90 hover:text-lime-500">
+          <Link to="/signup" className="underline text-blue-900 text-lg text-white/90 hover:text-lime-800">
             Sign up
           </Link>
         </p>
