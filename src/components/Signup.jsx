@@ -31,7 +31,7 @@ function Signup() {
     };
     // console.log(userInfo);
     await axios
-      .post("https://chat-api-backend.onrender.com/api/user/signup", userInfo)
+      .post("https://chatapp-qlz2.onrender.com/api/user/signup", userInfo)
       .then((response) => {
         if (response.data) {
           toast.success("Signup successful");

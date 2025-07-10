@@ -22,7 +22,7 @@ function Login() {
     };
 
     axios
-      .post("https://chat-api-backend.onrender.com/api/user/login", userInfo)
+      .post("https://chatapp-qlz2.onrender.com/api/user/login", userInfo)
       .then((response) => {
         if (response.data) {
           toast.success("Login successful");
