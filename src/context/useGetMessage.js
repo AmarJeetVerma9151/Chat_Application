@@ -11,7 +11,9 @@ const useGetMessage = () => {
       if (selectedConversation && selectedConversation._id) {
         try {
           const res = await axios.get(
-            `https://chatapp-qlz2.onrender.com/api/message/get/${selectedConversation._id}`
+            `https://chatapp-qlz2.onrender.com/api/message/get/${selectedConversation._id}`,{
+              withCredentials:true ,
+            }
           );
           setMessage(res.data);
           setLoading(false);
